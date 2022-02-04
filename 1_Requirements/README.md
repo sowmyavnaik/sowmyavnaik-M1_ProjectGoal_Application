@@ -1,0 +1,2 @@
+**DISCRIPTION OF THE ROJECT**
+Aim of the project: The medical store management system is a generic software which can be used in an array of the outlets that is wholesalers and retailers for automating process of the manual record keeping mainly relevant to the cash flows and stocks. The aim of this project is to design and develop the software which provide ease ad improvement from the manual inventory system used by the medical stores.
