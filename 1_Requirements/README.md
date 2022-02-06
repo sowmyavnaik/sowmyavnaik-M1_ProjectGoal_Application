@@ -1,2 +1,34 @@
-**DISCRIPTION OF THE ROJECT**
-Aim of the project: The medical store management system is a generic software which can be used in an array of the outlets that is wholesalers and retailers for automating process of the manual record keeping mainly relevant to the cash flows and stocks. The aim of this project is to design and develop the software which provide ease ad improvement from the manual inventory system used by the medical stores.
+# DISCRIPTION OF THE PROJECT
+
+* Project: Calendar application
+
+# Requirements
+## High level requirements
+
+* Basically there are operations can be done in this calendar application.As follows
+
+* You can find the day by entering the day, month and year. For example, if you enter day = 10, month = 03 and year = 1991, it gives you the day ‘Sunday’.
+* You can print the calender of particular month.
+* Produce background with color effects.
+* Add note.
+
+
+## Low level requirements
+
+* Other functions may include
+* Check if leap year.
+* Increase month.
+* Decrease month.
+* navigate between months.
+
+# 5W's & 1H
+
+ What: Calendar aplication with as many features.
+ Where: In mobile phones, laptops etc.
+ When:
+ Who:
+ Why:
+ How: Main features includes finding the day for a particular date,adding note.
+
+# Swot analysis
+
