@@ -19,6 +19,7 @@
 * Increase month.
 * Decrease month.
 * navigate between months.
+* It should not delay the process and be accurate.
 
 # 5W's & 1H
 
