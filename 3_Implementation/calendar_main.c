@@ -91,30 +91,35 @@ int main(int argc, char* argv[]){
     return 0;
 }
 
-int LeapYear( int y ){
+int LeapYear( int y )
+{
     return(y % 400 == 0) || ((y % 4 == 0) && (y % 100 != 0));
 }
 
-int leapYears( int y ){
+int leapYears( int y )
+{
     return y/4 - y/100 + y/400;
 }
 
-int todayOf( int y, int m, int d) {
+int todayOf( int y, int m, int d)
+ {
     static int DayOfMonth[] =
         { -1,0,31,59,90,120,151,181,212,243,273,304,334};
     return DayOfMonth[m] + d + ((m>2 && LeapYear(y))? 1 : 0);
 }
 
-long days( int y, int m, int d){
+long days( int y, int m, int d)
+{
     int lastYear;
     lastYear = y - 1;
     return 365L * lastYear + leapYears(lastYear) + todayOf(y,m,d);
 }
 
-void calendar(int y, int m){
+void calendar(int y, int m)
+{
     FILE *fp;
     Note* notes, note;
-    int len, j, hasNote = 0;
+    int len, j, hasNote ;
     char choice;
     const char *NameOfMonth[] = { NULL/*dummp*/,
         "January", "February", "March", "April", "May", "June",
@@ -183,13 +188,15 @@ void calendar(int y, int m){
     }
 }
 
-int getDayNumber(int d, int m, int y){ //retuns the day number
+int getDayNumber(int d, int m, int y)
+{ //retuns the day number
     static int t[] = {0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4};
     y -= m < 3;
     return (y + y/4 - y/100 + y/400 + t[m-1] + d) % 7;
 }
 
-char *getName(int day){ //returns the name of the day
+char *getName(int day)
+{ //returns the name of the day
    switch(day){
       case 0 :return("Sunday");
       case 1 :return("Monday");
