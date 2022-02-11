@@ -32,3 +32,8 @@
 
 # Swot analysis
 
+## Strengths:
+* Includes functionalities like
+* Finding a day for a particular date, adding note.
+* The result must be accurate 
+* without delay.
