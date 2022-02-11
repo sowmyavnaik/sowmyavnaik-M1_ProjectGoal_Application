@@ -4,7 +4,7 @@
  * Github
  * Hacker earth
  * Codiga
- * <img src=".github.jpg">
+ * <img src=".github.png">
 <a href="https://app.codiga.io/public/user/github/sowmyavnaik">
    <img src="https://api.codiga.io/public/badge/user/github/sowmyavnaik?style=light" alt="codiga badge" />
 </a>
