@@ -5,6 +5,7 @@
  * Hacker earth
  * Codiga
 
+[![Github_learn](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/0_Certificates/Github.png)
 <a href="https://app.codiga.io/public/user/github/sowmyavnaik">
    <img src="https://api.codiga.io/public/badge/user/github/sowmyavnaik?style=light" alt="codiga badge" />
 </a>
