@@ -1,5 +1,7 @@
-* Sololearn Certificate
-* Cisco Linus NDG Certificate
+* Sololearn
+* Cisco Linus NDG 
+* Github
+* Hacker earth
 * Codiga
 <a href="https://app.codiga.io/public/user/github/sowmyavnaik">
    <img src="https://api.codiga.io/public/badge/user/github/sowmyavnaik?style=light" alt="codiga badge" />
