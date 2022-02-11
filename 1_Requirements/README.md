@@ -2,7 +2,7 @@
 
 * Project: Calendar application
 ## Objective
-* The objective of calandar is to print the cslendsr of particular month, find the day of the month and add a note to a particular date and view it
+* The objective of calendar is to find the day of the week for a given date, month and year, add notes by giving date, month and year as input, print a calendar of particular month by giving month and year as input and checking if there are any notes for that month.
 
 # Requirements
 ## High level requirements
