@@ -86,7 +86,7 @@ int main(int argc, char* argv[])
         fclose(fp);
         break;
         case '4':
-        printf("Bye!!");
+        printf("Done!!");
         exit(0);
         break;
         default:
