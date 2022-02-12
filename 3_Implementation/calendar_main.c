@@ -1,7 +1,7 @@
 /**
  * @file Calendar.c
- * @author your name (you@domain.com)
- * @brief 
+ * @author Sowmya (you@domain.com)
+ * @brief Calendar application
  * @version 0.1
  * @date 2022-02-11
  * 
