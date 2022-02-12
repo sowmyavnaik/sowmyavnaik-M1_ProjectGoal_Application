@@ -15,6 +15,7 @@
 #include <stdlib.h>
 #include <stdio_ext.h>
 
+
 typedef struct {
   int day;
   int month;

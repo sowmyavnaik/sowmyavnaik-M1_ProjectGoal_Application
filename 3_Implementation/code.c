@@ -1,39 +1,54 @@
-/**
- * @file Calendar.c
- * @author your name (you@domain.com)
- * @brief 
- * @version 0.1
- * @date 2022-02-11
- * 
- * @copyright Copyright (c) 2022
- * 
- */
 #include <stdio.h>
 #include "stdio.h"
+#include "stdlib.h"
 #include <stdlib.h>
-#include <calendar_func.h>
-#include "calendar_func.h"
 
-int main(int argc, char* argv[]){
+int LeapYear(int year);        
+int leapYears(int year);         
+int todayOf(int y, int m, int d); 
+long days(int y, int m, int d);   
+void calendar(int y, int m);       
+int getDayNumber(int d,int m,int y);
+char *getName(int day);
+
+void flush()
+{
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF);
+}
+
+typedef struct 
+{
+  int day;
+  int month;
+  int year;
+  char note[255];
+} Note;
+
+int main(int argc, char* argv[])
+{
     int year,month, day;
     char choice;
     Note note;
     FILE *fp;
 
     fp = fopen("note.bin", "r");
-    if (fp == NULL) {
-      fp = fopen("note.bin", "w");
-    }
+    if (fp == NULL)
+     {
+       fp = fopen("note.bin", "w");
+     }
     fclose(fp);
 
-    while(1) {
+    while(1)
+     {
       printf("1. Find the day\n");
       printf("2. Print the calendar of a month\n");
       printf("3. Add a Note\n");
       printf("4. Exit\n");
       printf("Enter your choice: ");
       scanf("\n%c", &choice);
-      switch(choice) {
+      switch(choice) 
+      {
         case '1':
         printf("Enter the day, month and year: ");
         scanf("%d %d %d", &day, &month, &year);
@@ -72,6 +87,35 @@ int main(int argc, char* argv[]){
     return 0;
 }
 
+// True if leap year
+int LeapYear(int y)
+{
+    return(y % 400 == 0) || ((y % 4 == 0) && (y % 100 != 0));
+}
+
+// The number of leap year 
+int leapYears(int y)
+{
+    return y/4 - y/100 + y/400;
+}
+
+// The number of days since the beginning of the year
+int todayOf(int y, int m, int d)
+ {
+    static int DayOfMonth[] =
+        { -1,0,31,59,90,120,151,181,212,243,273,304,334};
+    return DayOfMonth[m] + d + ((m>2 && LeapYear(y))? 1 : 0);
+}
+
+// Total number of days
+long days(int y, int m, int d)
+{
+    int lastYear;
+    lastYear = y - 1;
+    return 365L * lastYear + leapYears(lastYear) + todayOf(y,m,d);
+}
+
+// display calendar at m y
 void calendar(int y, int m)
 {
     FILE *fp;
@@ -92,17 +136,20 @@ void calendar(int y, int m)
 
     fp = fopen("note.bin", "rb");
     len = 0;
-    while(fread(&note, sizeof(Note), 1, fp)) {
-      if (note.year == y && note.month == m) {
+    while(fread(&note, sizeof(Note), 1, fp))
+     {
+      if (note.year == y && note.month == m)
+       {
         len++;
-      }
-    }
+       }
+     }
     rewind(fp);
     j = 0;
     notes = (Note*) malloc (sizeof(Note) * len);
-    while(fread(&note, sizeof(Note), 1, fp))
-     {
-      if (note.year == y && note.month == m) {
+    while(fread(&note, sizeof(Note), 1, fp)) 
+    {
+      if (note.year == y && note.month == m)
+      {
         notes[j] = note;
         j++;
       }
@@ -116,16 +163,20 @@ void calendar(int y, int m)
 
     for(i=0;i<weekOfTopDay;i++)
         printf("   ");
-    for(i=weekOfTopDay,day=1;day <= DayOfMonth[m];i++,day++){
+    for(i=weekOfTopDay,day=1;day <= DayOfMonth[m];i++,day++)
+    {
         int hasNote = 0;
-        for (j = 0; j < len; j++) {
-          if (notes[j].day == day) {
+        for (j = 0; j < len; j++)
+        {
+          if (notes[j].day == day) 
+          {
             printf("|%2d| ",day);
             hasNote = 1;
             break;
           }
         }
-        if (hasNote == 0) {
+        if (hasNote == 0)
+        {
           printf("%2d   ",day);
         }
         if(i % 7 == 6)
@@ -138,10 +189,32 @@ void calendar(int y, int m)
       for (j = 0; j < len; j++) {
         printf("%d: %s\n", notes[j].day, notes[j].note);
       }
-    } else {
-      return;
     }
+     else
+     {
+      return;
+     }
+}
+// 
+int getDayNumber(int d, int m, int y)
+{ //retuns the day number
+    static int t[] = {0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4};
+    y -= m < 3;
+    return (y + y/4 - y/100 + y/400 + t[m-1] + d) % 7;
 }
 
-
+char *getName(int day)
+{ //returns the name of the day
+   switch(day)
+   {
+      case 0 :return("Sunday");
+      case 1 :return("Monday");
+      case 2 :return("Tuesday");
+      case 3 :return("Wednesday");
+      case 4 :return("Thursday");
+      case 5 :return("Friday");
+      case 6 :return("Saturday");
+      default:return("Error: Invalid Argument Passed");
+   }
+}
 
