@@ -13,6 +13,7 @@
 
 
 ## Low level requirements
+ * This project can be implemented by using c language in both windows and linux os.
  * Other functions may include
  * Check if leap year.
  * It should not delay the process and be accurate.
@@ -28,8 +29,11 @@
  * How: By giving inputs for particular feature.
 
 # Swot analysis
- ## Strengths:
+ ## Strengths
   * Includes functionalities like
   * Finding a day for a particular date, adding note.
   * The result must be accurate 
   * without delay.
+
+  ## Weakness 
+   * Many tasks to be performed 
