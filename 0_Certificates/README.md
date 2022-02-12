@@ -25,4 +25,4 @@
 
  ## Codacy
  
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9ddc8368d3e843208bafec13dfec4147)
+  ![Codacy Badge](https://app.codacy.com/project/badge/Grade/9ddc8368d3e843208bafec13dfec4147)
