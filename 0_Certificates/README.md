@@ -1,17 +1,22 @@
 # Certificates and badges
  ## Sololearn
+
   ![Sololearn](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/0_Certificates/Sololearn.png)
 
  ## Cisco Linus NDG 
+
   ![linux_NDG](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/0_Certificates/LinuxNDG.png)
 
  ## Github
+
   ![Github_learn](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/0_Certificates/Github.png)
 
  ## Hacker earth
+
   ![Hacker_earth](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/0_Certificates/Hackerearth.png)
 
  ## Codiga
+ 
   <a href="https://app.codiga.io/public/user/github/sowmyavnaik">
    <img src="https://api.codiga.io/public/badge/user/github/sowmyavnaik?style=light" alt="codiga badge" />
 
