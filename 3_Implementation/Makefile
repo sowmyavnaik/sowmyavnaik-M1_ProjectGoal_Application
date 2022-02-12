@@ -9,4 +9,3 @@ Run : Build
 
 Clean:
 	rm -rf *.o *.out *.i *.s
-
