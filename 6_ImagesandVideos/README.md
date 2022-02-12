@@ -11,7 +11,7 @@
   * Enter the month and year:Enter 02 2022 then the ouput will be a calendar of month february
   * Please enter 's' to see the notes: By entering s you will get the notes or remainder if added any
 
-[![Testcase1](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/6_ImagesandVideos/Testcase%202.png)]
+![Testcase1](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/6_ImagesandVideos/Testcase%202.png)
  
 ## Testcase 3 result
  3. Choose 2
