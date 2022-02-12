@@ -37,4 +37,4 @@
 
 ## Video
 
-![Video](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/6_ImagesandVideos/Video.gif)
+![Video](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/6_ImagesandVideos/Video.mp4)
