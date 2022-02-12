@@ -1,7 +1,7 @@
 # DISCRIPTION OF THE PROJECT
  * Project: Calendar application
  
-## Objective
+# Objective
  * The objective of calendar is to find the day of the week for a given date, month and year, add notes by giving date, month and year as input, print a calendar of particular month by giving month and year as input and checking if there are any notes for that month.
 
 # Requirements
