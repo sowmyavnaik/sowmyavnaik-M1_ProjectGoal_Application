@@ -33,6 +33,7 @@ long days( int y, int m, int d)
     lastYear = y - 1;
     return 365L * lastYear + leapYears(lastYear) + todayOf(y,m,d);
 }
+
 int getDayNumber(int d, int m, int y)
 { //retuns the day number
     static int t[] = {0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4};
