@@ -1,6 +1,6 @@
 /**
  * @file calendar_func.c
- * @author your name (vnsowmya6@domain.com)
+ * @author Sowmya (you@domain.com)
  * @brief Calendar application
  * @version 0.1
  * @date 2022-02-11
