@@ -23,7 +23,7 @@
 
 # 5W's & 1H
 
-![5W 1H](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/1_Requirements/5W_1H.png)
+![5W 1H](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/1_Requirements/5W%201H.png
 
 # Swot analysis
  ## Strengths

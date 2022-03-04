@@ -1,4 +1,5 @@
 # Working
+
  * Choose one option
   1. Find the day
   2. Print the calendar of a month
@@ -6,7 +7,7 @@
   4. Exit
 
  * Briefing on each steps
- 
+
   1. Choose 1
    * Enter the day, month and year: For ex: 09-02-2022 is entered then you will get the output as The day is : Wednesday
 
