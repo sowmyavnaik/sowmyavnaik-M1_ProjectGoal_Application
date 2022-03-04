@@ -26,6 +26,7 @@
 ![5W 1H](https://github.com/sowmyavnaik/sowmyavnaik-M1_ProjectGoal_Application/blob/main/1_Requirements/5W%201H.png)
 
 # Swot analysis
+
  ## Strengths
   * Includes functionalities like
   * Finding a day for a particular date, adding note.

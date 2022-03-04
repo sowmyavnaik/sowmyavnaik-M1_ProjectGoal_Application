@@ -1,5 +1,4 @@
 # Working
-
  * Choose one option
   1. Find the day
   2. Print the calendar of a month
