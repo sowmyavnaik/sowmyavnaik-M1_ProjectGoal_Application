@@ -13,13 +13,13 @@
   * HLR 2. It shall check if there are any exixting notes.
 
 
-## Low level requirements
-| LLR 1.1 | It shall Check if leap year.         | LLR 2.1 | It shall Check if leap year.         |
-| LLR 1.2 | It shall ask to enter date and month | LLR 2.2 | It shall ask to enter date and month |
-| LLR 1.3 | It shall display the calendar        | LLR 2.3 | It sahll ask to write the note       |
+ ## Low level requirements
+ | LLR 1.1 | It shall Check if leap year.         | LLR 2.1 | It shall Check if leap year.         |
+ | LLR 1.2 | It shall ask to enter date and month | LLR 2.2 | It shall ask to enter date and month |
+ | LLR 1.3 | It shall display the calendar        | LLR 2.3 | It sahll ask to write the note       |
 
-| LLR 1.1 | It shall ask to enter the day, month and year      | LLR 2.1 | It shall ask to enter date and month      |
-| LLR 1.2 | It shall display the day                           | LLR 2.2 |  |It shall display if there are any notes |  
+ | LLR 1.1 | It shall ask to enter the day, month and year      | LLR 2.1 | It shall ask to enter date and month      |
+ | LLR 1.2 | It shall display the day                           | LLR 2.2 |  |It shall display if there are any notes |  
 
 # 5W's & 1H
 
